@@ -62,6 +62,26 @@ Table of content:
 @import url("../fonts/icofont/icofont.min.css");
 
 * {
+    .mobile-button {
+  display: block; /* Show by default */
+}
+/* Hide on screens wider than 768px */
+@media (min-width: 768px) {
+  .mobile-button {
+    display: none;
+  }
+}
+
+
+.desktop-button {
+  display: none; /* Hide by default */
+}
+/* Show only on screens wider than 768px (a common breakpoint) */
+@media (min-width: 768px) {
+  .desktop-button {
+    display: block;
+  }
+}
   /* body font */
   --body-font: "DM Sans", Helvetica, Arial, sans-serif;
   --body-font-size: 16px;
