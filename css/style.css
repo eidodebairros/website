@@ -47,7 +47,7 @@ Table of content:
 
 /* import fonts icon */
 /* ================================================== */
-..mobile-button {
+.mobile-button {
   display: block; /* Show by default */
 }
 /* Hide on screens wider than 768px */
