@@ -1,8 +1,5 @@
-/* ================================================== */
 
-
-/* Residem
-/* created by designesia
+/* 
 
 @charset "utf-8";
 
@@ -49,7 +46,26 @@ Table of content:
 
 
 /* import fonts icon */
+/* ================================================== */
+.mobile-button {
+  display: none; /* Show by default */
+}
+/* Hide on screens wider than 768px */
+@media (max-width: 768px) {
+  .mobile-button {
+    display: block;
+  }
+}
 
+.desktop-button {
+  display: none; /* Hide by default */ ;
+}
+/* Show only on screens wider than 768px (a common breakpoint) */
+@media (min-width: 768px) {
+  .desktop-button {
+    display: block;
+  }
+}
 
 /* ================================================== */
 
